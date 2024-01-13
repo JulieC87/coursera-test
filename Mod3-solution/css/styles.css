@@ -1,0 +1,395 @@
+.body {
+	min-height: 100%;
+	width: 101%;
+	font-family: 'Arial', sans-serif;
+	overflow-x: hidden;
+}
+
+.text-center { /*Our Menu */
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: -50px;
+}
+
+.navbar-header { /*top row */
+	color: white;
+	width: 50vw;
+}
+
+
+#header-nav {
+	background-color: darkgray;
+	height: 80px;
+	margin-bottom: 0px;
+	width: 100vw;
+}
+
+
+.navbar-brand a {
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: 20px;
+	left: -10px;
+}
+
+.navbar-brand { /* Food, LLC */
+	font-family: 'Arial', serif;
+	color: black;
+	font-weight: bold;
+	line-height: 50%;
+	padding-left: 30px;
+	width: 100vw;
+	text-decoration: none;
+}
+
+.border	{
+	border-radius: 0px;
+	color: black;
+}
+
+p {
+	color: black;
+	padding-top: 20px;
+	margin-top: -20px;
+	width: 100%;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+
+.container-fluid {
+	background-color: pink;
+	width: 100vw;
+	height: 50px;
+}
+
+
+.container > li > a {
+	width: 100vw;
+	padding-top: -20px;
+	margin-top: -20px;
+}
+
+.container > h1, h2 {
+	background-color: darkgray;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	overflow-x: hidden;
+
+}
+
+h1 {
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: -5px;
+}
+
+h2 {
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 0.9em;
+	text-align: left;
+	overflow-x: hidden;
+	padding-top: -10px;
+}
+
+.navbar-toggle {
+	position: relative;
+	top: -60px;
+	right: 35px;
+	padding: 0px 0 px;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid black;
+	border-radius: 4px;
+	width: 42px;
+	z-index: 1;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	height: 2px;
+	border-radius: 1px;
+	background-color: blue;
+}
+
+.navbar-toggle .icon-bar .icon-bar {
+	margin-top: 4px;
+	background-color: white;
+}
+
+ul {
+	background-color: white;
+	width: 100vw;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: -30px;
+	overflow-x: hidden;
+}
+
+li {
+	background-color: red;
+	margin: 0px;
+	width: 100vw;
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow-x: hidden;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 50%;
+	background-color: white;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	width: 100vw;
+	font-size: 14px;
+	overflow-x: hidden;
+}
+
+.collapse navbar-collapse {
+	position: relative;
+	margin-top: -30px;
+	margin-left: -30px;
+	width: 100vw;
+}
+
+#nav-list {
+	margin-top: 0px;
+	width: 100vw;
+	border: 1px;
+	border-color: black;
+}
+
+.nav-list a {
+	color: black;
+	text-align: center;
+	background-color: pink;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%; max-width: 100%;
+}
+
+
+#nav-list a:hover {
+	background: lightgray;
+	width: 100%; max-width: 100%;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+	width: 100%; max-width: 100%;
+}
+
+#collapsable-nav {
+	box-shadow: none;
+	border: 0;
+	width: 100vw;
+}
+
+.navbar button.navbar-toggle {
+	clear: both;
+	margin-top: 30px;
+	background-color: darkgray;
+	text-align: center;
+}
+
+
+/* END HEADER */
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+	.navbar-brand { /* Food, LLC */
+	font-size: 1.5em;
+	margin-top: -80px;
+	margin-bottom: 0px;
+	height: 80px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100vw;
+	background-color: darkgray;
+	}
+}
+
+@media (min-width: 992px) {
+	p {
+	color: black;
+	padding-top: 36px;
+	margin-top: -20px;
+	width: 100%;
+	font-weight: bold;
+	padding-bottom: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar > .container-fluid .navbar-brand {
+		margin-left: -500px;
+		margin-right: -500px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.container > h1, h2 {
+		width: 97%;
+		background-color: darkgray;
+		padding-bottom: 5px;
+		padding-top: 10px;
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		overflow-x: hidden;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand { /* Food, LLC */
+	font-size: 1.5em;
+	margin-top: -80px;
+	margin-bottom: 0px;
+	height: 80px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100vw;
+	background-color: darkgray;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	p {
+	color: black;
+	padding-top: 36px;
+	margin-top: -20px;
+	width: 100%;
+	font-weight: bold;
+	padding-bottom: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar > .container-fluid .navbar-brand {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container > h1, h2 {
+		width: 97%;
+		background-color: darkgray;
+		padding-bottom: 5px;
+		padding-top: 10px;
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		overflow-x: hidden;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-header { /*top row */
+		width: 50vw;
+		height: 50px;
+		margin-top: 10px;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	.navbar-brand { /* Food, LLC */
+	font-size: 1.5em;		
+	margin-top: -115px;
+	margin-bottom: -10px;
+	height: 80px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100vw;
+	background-color: darkgray;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar > .container-fluid .navbar-brand {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: -10px;	
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-nav > li > a {
+	padding-top: -10px;
+	padding-bottom: 10px;
+	line-height: 50%;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+	border-left: none;
+	border-top: 1px;
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-width: thick;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	width: 100vw;
+	overflow-x: hidden;
+	}
+}
+
+@media (max-width: 767px) {
+	.container div {
+		margin-top: -35px;
+		overflow-x: hidden;
+		padding-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 767px) { 
+	#nav-list a {
+		color: black;
+	}
+}
+
+@media (max-width: 767px) {
+	.container > h1, h2 {
+		width: 96%;
+		background-color: darkgray;
+		padding-bottom: 5px;
+		padding-top: 10px;
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		overflow-x: hidden;
+	}
+}
